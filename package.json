@@ -1,5 +1,5 @@
 {
-  "name": "wifi-provisioning",
+  "name": "nuxt-capacitor-template",
   "version": "1.0.0",
   "private": true,
   "scripts": {
@@ -12,6 +12,8 @@
     "generate": "nuxt generate"
   },
   "dependencies": {
+    "@capacitor/cli": "^3.5.1",
+    "@capacitor/core": "^3.5.1",
     "@nuxtjs/axios": "^5.13.6",
     "@nuxtjs/toast": "^3.3.1",
     "core-js": "^3.19.3",

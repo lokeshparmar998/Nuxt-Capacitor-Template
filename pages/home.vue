@@ -1,13 +1,3 @@
 <template>
-  <section class="section"></section>
+  <div>Home page</div>
 </template>
-
-<script>
-export default {
-  name: "IndexPage",
-  components: {},
-  fetch() {
-    
-  },
-};
-</script>
