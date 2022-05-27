@@ -24,9 +24,14 @@
           >Rename project in android string file.</b-checkbox
         >
       </b-field>
-      <b-field>
+      <b-field class="mb-5">
         <b-checkbox size="is-large is-family-monospace"
           >Install ios to work on ios app.</b-checkbox
+        >
+      </b-field>
+      <b-field>
+        <b-checkbox size="is-large is-family-monospace"
+          >Setup push notifications in android.</b-checkbox
         >
       </b-field>
     </section>
