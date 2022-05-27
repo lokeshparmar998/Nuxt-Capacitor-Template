@@ -9,5 +9,4 @@ export default {
   /* middleware: "auth", */
 };
 </script>
-<style scoped>
-</style>
+<style scoped></style>

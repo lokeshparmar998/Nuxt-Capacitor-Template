@@ -1,5 +1,3 @@
 <template>
-    <div>
-        Mobile header
-    </div>
+  <div>Mobile header</div>
 </template>

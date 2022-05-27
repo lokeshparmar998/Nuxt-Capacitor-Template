@@ -1,5 +1,3 @@
 <template>
-    <div>
-        Bottom nav
-    </div>
+  <div>Bottom nav</div>
 </template>

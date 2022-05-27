@@ -1,7 +1,7 @@
 <template>
   <div>
-   Nuxt template with Capacitor.js. <br>
-   A quick template for hybrid apps.
+    Nuxt template with Capacitor.js. <br />
+    A quick template for hybrid apps.
   </div>
 </template>
 
@@ -9,9 +9,7 @@
 export default {
   layout: "fullpage",
   data: function () {
-    return {
-      
-    };
+    return {};
   },
   computed: {
     isAuthenticated() {
@@ -38,6 +36,4 @@ export default {
   },
 };
 </script>
-<style scoped>
-
-</style>
+<style scoped></style>

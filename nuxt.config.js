@@ -1,10 +1,10 @@
 const env = () => {
   if (process.env.NODE_ENV == "production") {
-    return "https://backend.mumbai.avrioconnect.com";
+    return "";
   } else if (process.env.NODE_ENV == "development") {
-    return "https://devbackend.mumbai.avrioconnect.com";
+    return "";
   } else if (process.env.NODE_ENV == "local") {
-    return "http://localhost:8000";
+    return "";
   }
 };
 export default {
@@ -13,10 +13,10 @@ export default {
     BaseUrl: env(),
   },
   ssr: false,
-  loading: '@/components/LoadingBar.vue',
+  loading: "@/components/LoadingBar.vue",
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: "wifi-provisioning",
+    title: "Nuxt capacitor template",
     htmlAttrs: {
       lang: "en",
     },
@@ -30,13 +30,22 @@ export default {
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
-  css: [],
+  css: [
+    "~/assets/css/main.css",
+    "~/assets/fonts/lato/lato.css",
+    "~/assets/fonts/nunito/nunito.css",
+    "~/assets/fonts/raleway/raleway.css",
+    "~/assets/fonts/inter/inter.css",
+  ],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
-  plugins: ['~/plugins/utility.js','~/plugins/toast.js'],
+  plugins: [
+    "~/plugins/utility.js",
+    "~/plugins/toast.js",
+    "~/plugins/capacitorPlugin.js",
+  ],
 
-
-  middleware: ['auth'],
+  middleware: ["auth"],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
   components: true,
@@ -50,8 +59,8 @@ export default {
     "nuxt-buefy",
     // https://go.nuxtjs.dev/axios
     "@nuxtjs/axios",
-    '@nuxtjs/toast',
-    'nuxt-vuex-localstorage',
+    "@nuxtjs/toast",
+    "nuxt-vuex-localstorage",
   ],
 
   // Axios module configuration: https://go.nuxtjs.dev/config-axios

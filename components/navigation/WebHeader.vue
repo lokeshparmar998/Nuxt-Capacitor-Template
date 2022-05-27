@@ -2,11 +2,7 @@
   <div class="header card">
     <div class="top-nav">
       <div class="logo">
-        <img
-          src="~/assets/shared/avrio-logo.png"
-          width="100"
-          alt="company logo"
-        />
+        <img src="" width="100" alt="company logo" />
       </div>
       <div class="options">
         <div class="nav" @click="logout()">
@@ -29,7 +25,7 @@ export default {
         token: null,
       };
       this.$store.commit("localStorage/CLEAR_STATE", payload);
-      this.$router.push('/')
+      this.$router.push("/");
     },
   },
 };

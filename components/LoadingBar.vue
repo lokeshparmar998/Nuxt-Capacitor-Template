@@ -11,13 +11,13 @@ export default {
   }),
   methods: {
     start() {
-      this.loading = true
+      this.loading = true;
     },
     finish() {
-      this.loading = false
+      this.loading = false;
     },
   },
-}
+};
 </script>
 
 <style scoped>
