@@ -1,0 +1,6 @@
+{
+  "appId": "com.nuxtcapacitor.app",
+  "appName": "nuxt-capacitor-template",
+  "webDir": "dist",
+  "bundledWebRuntime": false
+}
